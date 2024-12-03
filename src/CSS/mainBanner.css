@@ -1,0 +1,117 @@
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    height: 90vh;
+    color: black;
+}
+
+section div:first-child {
+    max-width: 50%;
+    align-items: end;
+}
+
+section h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+section h1 span {
+    color: #ffd700;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+section div:last-child img {
+    width: 50vw;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.book-now-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f8a71b;
+    /* Button color */
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.1); */
+    /* Drop shadow without fade */
+    transition: transform 0.3s ease;
+}
+
+.book-now-btn:hover {
+    transform: scale(1.02);
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.book-now-btn .icon {
+    font-size: 1.2rem;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-top: 10vh;
+        /* padding: 50px; */
+        height: 80vh;
+        color: black;
+    }
+
+    section div:first-child {
+        max-width: 100%;
+        margin-bottom: 30px;
+        padding-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section h1 {
+        font-size: 2.5rem;
+    }
+
+    section div:last-child img {
+        width: 100vw;
+    }
+
+    .hero-text {
+
+        align-items: end;
+    }
+    .book-now-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #f8a71b;
+        /* Button color */
+        color: b;
+        padding: 12px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        /* Rounded corners */
+        cursor: pointer;
+        /* box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.1); */
+        /* Drop shadow without fade */
+        transition: transform 0.3s ease;
+    }
+}

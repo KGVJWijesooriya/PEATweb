@@ -1,0 +1,106 @@
+.area {
+    background-color: #F8A71B;
+    padding: 50px;
+    height: 100vh;
+}
+
+.area h1 {
+    font-size: 5rem;
+}
+
+.item-image {
+    display: flex;
+    flex-direction: row; /* Default for larger screens */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-image .mokup {
+    width: auto;
+    height: 70vh;
+    padding: 120px 60px 60px 200px;
+}
+
+.TextArea {
+    width: 50vw;
+}
+
+.item-image h1 {
+    font-size: 2.5rem;
+}
+
+.playstore {
+    width: auto;
+    height: 15vh;
+}
+
+.appstore {
+    width: auto;
+    height: 9.5vh;
+}
+
+.downloadImg {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .area {
+        padding: 30px;
+        height: auto; /* Allow height to adjust dynamically */
+    }
+
+    .area h1 {
+        font-size: 3rem; /* Smaller font for smaller screens */
+    }
+
+    .item-image {
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center;
+        text-align: center; /* Center align text */
+    }
+
+    .item-image .mokup {
+        height: 50vh;
+        padding: 20px; /* Reduce padding */
+    }
+
+    .TextArea {
+        width: 80vw; /* Expand text area to fit screen */
+    }
+
+    .item-image h1 {
+        font-size: 2rem;
+    }
+
+    .playstore, .appstore {
+        height: 10vh; /* Reduce size for smaller screens */
+    }
+
+    .downloadImg {
+        width: 90vw; /* Use most of the screen width */
+        flex-wrap: wrap; /* Allow items to wrap if necessary */
+        justify-content: center; /* Center align download buttons */
+    }
+}
+
+@media (max-width: 480px) {
+    .area h1 {
+        font-size: 2.5rem; /* Further reduce font size for very small screens */
+    }
+
+    .item-image .mokup {
+        height: 40vh;
+    }
+
+    .item-image h1 {
+        font-size: 1.5rem;
+    }
+
+    .playstore, .appstore {
+        height: 8vh;
+    }
+}
