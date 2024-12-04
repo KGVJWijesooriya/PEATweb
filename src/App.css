@@ -45,18 +45,43 @@ header ul {
 }
 
 header ul li {
+  position: relative;
   cursor: pointer;
-  color: black; /* Default color for nav items */
-  transition: color 0.3s, background-color 0.3s;
-  padding: 8px 16px; /* Added padding for hover effect */
-  border-radius: 8px;
+  color: black; 
+  padding: 8px 16px;
+  transition: color 0.3s;
+}
+
+header ul li::after {
+  content: "";
+  position: absolute;
+  bottom: 0; /* Place underline at the bottom */
+  left: 0;
+  width: 0; /* Initially no width */
+  height: 2px; /* Height of the underline */
+  background-color: #F8A71B; /* Color of the underline */
+  transition: width 0.3s ease; /* Smoothly animate width */
 }
 
 header ul li:hover {
-  background-color: #F8A71B; /* Yellow background on hover */
-  color: black; /* Optional: Change text color on hover */
-  border-radius: 8px; /* Rounded corners for hover effect */
+  color: black; /* Change text color on hover */
 }
+
+header ul li:hover::after {
+  width: 100%; /* Expand underline to full width */
+}
+
+/* Active class for bold and underline */
+header ul li.active {
+  font-weight: bold; /* Bold font for active item */
+  color: black; /* Active color */
+}
+
+header ul li.active::after {
+  width: 100%; /* Ensure underline is fully visible for active item */
+}
+
+
 
 /* Responsive Menu */
 .menu-toggle {

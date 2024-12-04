@@ -1,5 +1,5 @@
-.area {
-    background-color: #F8A71B;
+.areaPO {
+    background-color: white;
     padding: 50px;
     height: 100vh;
     scroll-behavior: smooth;
@@ -8,18 +8,19 @@
 /* .area {
   } */
 
-.mokup-container,
-.TextArea {
+.mokup-containerPO,
+.TextAreaPO {
     will-change: opacity, transform;
     width: 50vw;
+    padding-left: 10vw;
 }
 
-.area h1 {
+.areaPO h1 {
     font-size: 5rem;
     padding-left: 10rem;
 }
 
-.item-image {
+.item-imagePO {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,19 +28,19 @@
     max-width: 70vw;
 }
 
-.item-image .mokup {
-    width: 18vw;
+.item-imagePO .mokupPO {
+    width: 70vw;
     height: auto;
-    padding: 20px 25vw 60px 10vw;
+    padding: 120px 10vw 60px 10vw;
 }
 
-.TextArea h3 {
+.TextAreaPO h3 {
     padding-top: 1rem;
     font-weight: 100;
     font-size: 1vw;
 }
 
-.item-image h1 {
+.item-imagePO h1 {
     font-size: 2.5rem;
     padding: 0;
     font-size: 2vw;
@@ -71,33 +72,22 @@ ul li {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .area {
-        padding: 5rem 1rem 5rem 1rem;
-        height: auto;
+    .areaPO {
+        padding: 00px;
+        height: 150vh;
         width: 100vw;
-
 
         /* Allow height to adjust dynamically */
     }
 
-    .area h1 {
+    .areaPO h1 {
         font-size: 3rem;
         padding: 0;
         align-items: center;
         /* Smaller font for smaller screens */
     }
 
-    .mokup-container{
-        will-change: opacity, transform;
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        text-align: start;
-        align-items: center;
-    }
-
-    .item-image {
+    .item-imagePO {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -108,26 +98,25 @@ ul li {
         max-width: 100vw;
     }
 
-    .item-image .mokup {
-        width: 30vw;
-        height: auto;
+    .item-imagePO .mokup {
+        height: 50vh;
         padding: 20px;
         /* Reduce padding */
     }
 
-    .TextArea h3 {
+    .TextAreaPO h3 {
         padding-top: 1rem;
         font-weight: 100;
         font-size: 2.5vw;
     }
 
-    .TextArea h2 {
+    .TextAreaPO h2 {
         padding-top: 1.5rem;
         /* font-weight: 100;
         font-size: 2.5vw; */
     }
 
-    .TextArea {
+    .TextAreaPO {
 
         flex-direction: column;
         justify-content: center;
@@ -137,7 +126,7 @@ ul li {
         /* Expand text area to fit screen */
     }
 
-    .item-image h1 {
+    .item-imagePO h1 {
         font-size: 2rem;
         max-width: 100vw;
     }
@@ -169,16 +158,16 @@ ul li {
 }
 
 @media (max-width: 480px) {
-    .area h1 {
+    .areaPO h1 {
         font-size: 2.5rem;
         /* Further reduce font size for very small screens */
     }
 
-    .item-image .mokup {
+    .item-imagePO .mokup {
         height: 40vh;
     }
 
-    .item-image h1 {
+    .item-imagePO h1 {
         font-size: 1.5rem;
     }
 
