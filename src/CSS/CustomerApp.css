@@ -109,8 +109,8 @@ ul li {
     }
 
     .item-image .mokup {
-        width: 30vw;
-        height: auto;
+        width: auto;
+        height: 60vh;
         padding: 20px;
         /* Reduce padding */
     }
@@ -175,7 +175,7 @@ ul li {
     }
 
     .item-image .mokup {
-        height: 40vh;
+        height: 50vh;
     }
 
     .item-image h1 {

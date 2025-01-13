@@ -163,8 +163,9 @@ ul li {
         /* Further reduce font size for very small screens */
     }
 
-    .item-imagePO .mokup {
-        height: 40vh;
+    .item-imagePO .mokupPO {
+        height: 50vh;
+        width: auto;
     }
 
     .item-imagePO h1 {
@@ -188,5 +189,21 @@ ul li {
     .appstore {
         width: auto;
         height: 6.4vh;
+    }
+    .item-imagePO {
+        display: flex;
+        flex-direction: column; /* Ensure children stack vertically */
+        justify-content: center;
+        text-align: start;
+        align-items: center;
+        max-width: 100vw;
+    }
+
+    .mokup-container {
+        order: 1; /* Set order of mokup-container for screens ≤ 480px */
+    }
+
+    .TextAreaPO {
+        order: 2; /* Adjust order for TextAreaPO if needed */
     }
 }

@@ -1,0 +1,36 @@
+.maintenance-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #cfe3e3; /* Page background color */
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .maintenance-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .maintenance-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .gif-container {
+    width: 60vw; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gif-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensures proper scaling */
+  }
+  
