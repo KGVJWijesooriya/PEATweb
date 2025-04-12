@@ -97,17 +97,17 @@ const CustomerApp = () => {
               </li>
             </ul>
             {/* More Button */}
-            <button
+            {/* <button
               className="mt-6 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-700 transition"
               data-aos="fade-up"
               data-aos-delay="850"
               // onClick={() => navigate("/more")} // Navigate to the "/more" route
             >
               More
-            </button>
+            </button> */}
             <div className="flex space-x-6 mt-6">
               <img
-                className="h-16"
+                className="h-14"
                 src="assets/images/google-play-6647242_1280.png"
                 alt="Play Store"
                 data-aos="fade-up"

@@ -75,7 +75,7 @@ const ParkOwner = () => {
             </ul>
             <div className="flex space-x-6 mt-6">
               <img
-                className="h-16"
+                className="h-14"
                 src="assets/images/google-play-6647242_1280.png"
                 alt="Play Store"
                 data-aos="fade-up"
