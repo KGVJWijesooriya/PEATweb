@@ -21,7 +21,7 @@ const CustomerApp = () => {
   }, []);
 
   return (
-    <div className="bg-[#F8A71B] py-12 h-[100vh] overflow-auto flex items-center justify-center">
+    <div className="bg-[#F8A71B] h-screen w-full py-12  overflow-auto flex items-center justify-center">
       <div className="mx-auto max-w-7xl">
         <h1 className="text-5xl text-center font-bold mb-12" data-aos="fade-up">
           Book a Slot

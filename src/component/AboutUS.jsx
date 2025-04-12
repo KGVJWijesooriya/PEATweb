@@ -5,25 +5,27 @@ import AOS from "aos";
 const AboutUS = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800, // Duration of the animation
-      easing: "ease-out-cubic", // Easing function
-      once: false, // Whether animation should run only once
+      duration: 800,
+      easing: "ease-out-cubic",
+      once: false,
     });
   }, []);
 
   return (
-    <div className="py-10">
-      <div className="container mx-auto px-6 md:px-12 lg:px-20">
-        <div className="bg-white rounded-lg p-6 md:p-10 lg:p-14 flex flex-col lg:flex-row items-center lg:items-center">
+    <section >
+    <div className="py-10 ">
+      <div className="container mx-auto px-6 md:px-12 lg:px-20 bg-white rounded-lg ">
+        <div>
+            <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold text-black mb-6 text-left flex justify-center items-center pt-10">
+              About Us
+            </h1>
+            <div className=" p-6 md:p-10 lg:p-14 flex flex-col lg:flex-row items-center lg:items-center">
           {/* Text Content */}
           <div
             className="lg:w-2/3"
             data-aos="fade-up"
             data-aos-delay="200" // Delay for the first animation
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6 text-left">
-              About Us
-            </h1>
             <p
               className="text-lg md:text-xl font-light text-gray-600 leading-relaxed mb-8"
               data-aos="fade-up"
@@ -80,8 +82,10 @@ const AboutUS = () => {
             />
           </div>
         </div>
+            </div>
+
       </div>
-    </div>
+    </div></section>
   );
 };
 
