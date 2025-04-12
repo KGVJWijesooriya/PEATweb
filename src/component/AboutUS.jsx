@@ -77,7 +77,7 @@ const AboutUS = () => {
             data-aos-delay="800"
           >
             <img
-              src="../public/assets/images/7608424.jpg"
+              src="assets/images/7608424.jpg"
               alt="Easy Park App"
             />
           </div>

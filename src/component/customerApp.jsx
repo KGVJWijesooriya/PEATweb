@@ -41,7 +41,7 @@ const CustomerApp = () => {
             >
               <img
                 className="w-72 lg:w-[14rem]"
-                src="../public/assets/images/samsung-galaxy-still(11).png"
+                src="assets/images/samsung-galaxy-still(11).png"
                 alt="Mockup"
               />
             </div>
@@ -108,14 +108,14 @@ const CustomerApp = () => {
             <div className="flex space-x-6 mt-6">
               <img
                 className="h-16"
-                src="../public/assets/images/google-play-6647242_1280.png"
+                src="assets/images/google-play-6647242_1280.png"
                 alt="Play Store"
                 data-aos="fade-up"
                 data-aos-delay="900"
               />
               <img
                 className="h-14"
-                src="../public/assets/images/Download_on_the_App_Store_RGB_blk.svg.png"
+                src="assets/images/Download_on_the_App_Store_RGB_blk.svg.png"
                 alt="App Store"
                 data-aos="fade-up"
                 data-aos-delay="1100"
