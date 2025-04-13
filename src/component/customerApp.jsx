@@ -7,10 +7,8 @@ import {
   MdOutlineNavigation,
   MdOutlineDateRange,
 } from "react-icons/md";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 const CustomerApp = () => {
-  // const navigate = useNavigate(); // Initialize useNavigate
 
   useEffect(() => {
     AOS.init({
